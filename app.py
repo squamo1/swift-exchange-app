@@ -33,7 +33,7 @@ while True:
     if amount <= 0:
         print("Amount must be greater than 0.")
         status = "Failed"
-        exit()
+        continue
 
     print("Supported currencies: USD, EUR, GBP, MWK")
     from_currency = input("Enter currency you are converting from: ").upper()
